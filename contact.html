@@ -23,11 +23,62 @@
             <h1>Contact Us</h1>
         </div>
     </header>
+    <main class="container">
 
+        <div class="text-block">
+            <p>
+                Got a question about a board before you order, or an issue with something you already bought?
+                Send us a message and we'll get back to you, usually within a business day. We're also happy to
+                help pick the right sensor for a project if you're not sure where to start.
+            </p>
+            <p>
+                For bulk or campus club orders, mention the quantity you need in your message — we offer better
+                pricing for classroom and hackathon-sized orders.
+            </p>
+        </div>
 
+        <div class="img-flex">
+            <img class="content-img" src="photo-3.jpeg" alt="Electronic components">
+            <img class="content-img" src="photo-4.avif" alt="Person testing an IoT board">
+        </div>
 
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <label>Full Name</label>
+                <input type="text" id="nameField" placeholder="Your name">
 
+                <label>Email</label>
+                <input type="text" id="emailField" placeholder="you@example.com">
 
+                <label>Message</label>
+                <textarea id="messageField" placeholder="Tell us what you need..."></textarea>
+
+                <button onclick="sendMessage()">Send Message</button>
+                <p id="formMsg"></p>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-box">
+                    <h4>Address</h4>
+                    <p>House 12, Road 5, Bashundhara R/A, Dhaka, Bangladesh</p>
+                </div>
+                <div class="info-box">
+                    <h4>Phone</h4>
+                    <p>+880 1234-567890</p>
+                </div>
+                <div class="info-box">
+                    <h4>Email</h4>
+                    <p>support@nexboard.example</p>
+                </div>
+                <div class="info-box">
+                    <h4>Hours</h4>
+                    <p>Sat - Thu, 10 AM - 8 PM</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
 
 
