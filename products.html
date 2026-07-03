@@ -22,6 +22,44 @@
         </div>
     </header>
 
+    <main class="container">
+
+        <div class="text-block">
+            <p>
+                Below is our core lineup of development boards and sensors. Every item listed here is stocked locally, so orders placed before 5 PM usually go out the same day. Prices are in BDT and already include basic testing before packing.
+            </p>
+            <p>
+                Not sure which board fits your project? The ESP32 is the safe default for anything needing Wi-Fi and Bluetooth together, while the NodeMCU is a lighter option if you only need Wi-Fi.
+            </p>
+
+            <p>
+                Arduino Uno is the classic beginner board: It uses an 8-bit processor, has no built-in wireless features, and excels at simple, repetitive tasks like reading a sensor or blinking LEDs.
+
+            </p>
+        </div>
+
+        <div class="cart-bar">
+            <span>Items in cart: <strong id="cartCount">0</strong></span>
+            <span>Total: <strong>tk<span id="cartTotal">0</span></strong></span>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="esp32.png" alt="ESP32 development board">
+                <div class="product-body">
+                    <h3>ESP32 Dev Board</h3>
+                    <p>Wi-Fi + Bluetooth, dual-core, USB-C.</p>
+                    <p class="price">Tk650</p>
+                    <button onclick="addToCart('ESP32 Dev Board', 650)">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+
 
 
 
